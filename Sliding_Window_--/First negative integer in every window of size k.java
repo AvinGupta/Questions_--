@@ -1,6 +1,6 @@
 int spt=0;
         int ept=0;
-        int[] ans=new int[N-K+1];
+        int[] ans=new int[N-K+1];///answer of size N-K+1 where n is the size of array and k is window size
         ArrayList<Integer> lst=new ArrayList<>();
         ArrayList<Integer> lst1=new ArrayList<>();
         while(ept<N){
@@ -16,6 +16,7 @@ int spt=0;
                 ept++;
             }
         }
+        // converting list into array to match the return type 
         for(int i=0;i< ans.length;i++){
             ans[i]=lst1.get(i);
         }
