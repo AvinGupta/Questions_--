@@ -1,6 +1,7 @@
 class Solution{
     static long maximumSumSubarray(int K, ArrayList<Integer> Arr,int N){
         //solution 1:--
+        
         // By taking the sum of K size window first then do it for the rest of the window.
         long Max=0,Sum=0;
         for(int i=0;i<K;i++) Sum+=Arr.get(i);
