@@ -5,6 +5,7 @@ class Solution{
         Sub_sum(arr,N,lst,ans);
         return ans;
     }
+    
     public static void Sub_sum(ArrayList<Integer> arr,int n,ArrayList<Integer> lst,ArrayList<Integer>ans){
         if(n==0){
             int sum=0;
