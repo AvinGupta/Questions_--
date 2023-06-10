@@ -3,6 +3,7 @@ class Solution {
     public List<String> AllParenthesis(int n) 
     {
         List<String> lst=new ArrayList<>();
+        
         Gen_Par(n,0,0,"",lst);
         return lst;
     }
