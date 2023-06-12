@@ -1,5 +1,4 @@
-class Solution
-{
+class Solution{
     public ArrayList<String> permutation(String S){
         char[] arr=S.toCharArray();
         Arrays.sort(arr);
