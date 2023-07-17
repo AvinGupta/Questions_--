@@ -4,6 +4,7 @@ class Solution{
         ArrayList<Integer> lst= new ArrayList<>();
         Sub_sum(arr,N,lst,ans);
         return ans;
+        
     }
     
     public static void Sub_sum(ArrayList<Integer> arr,int n,ArrayList<Integer> lst,ArrayList<Integer>ans){
