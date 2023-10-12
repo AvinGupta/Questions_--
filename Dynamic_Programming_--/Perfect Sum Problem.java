@@ -1,5 +1,4 @@
 class Solution{
-
 	public int perfectSum(int arr[],int n, int sum) 
 	{ 
 	    // Your code goes here
@@ -16,5 +15,5 @@ class Solution{
 	        }
 	    }
 	    return dp[n][sum];
-	} 
+	}
 }
