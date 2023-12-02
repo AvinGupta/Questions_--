@@ -1,8 +1,7 @@
 class Solution
 {
     //Function to find length of shortest common supersequence of two strings.
-    public static int shortestCommonSupersequence(String x,String y,int m,int n)
-    {
+    public static int shortestCommonSupersequence(String x,String y,int m,int n){
         //Your code here
         int[][] dp=new int[m+1][n+1];
         for(int i=0;i<m+1;i++) dp[i][0]=0;
