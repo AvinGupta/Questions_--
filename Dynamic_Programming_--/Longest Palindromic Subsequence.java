@@ -1,7 +1,6 @@
 class Solution
 {
-    public int longestPalinSubseq(String x)
-    {
+    public int longestPalinSubseq(String x){
         //code here
         StringBuilder sb=new StringBuilder(x);
         String y=sb.reverse().toString();
