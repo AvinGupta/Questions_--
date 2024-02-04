@@ -1,5 +1,5 @@
 //time complexity-->O(n)+O(V+2e)
-class Solution {
+class Solution { 
     public static void dfs(int node,ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> lst,boolean[] isVisited){
         isVisited[node]=true;
         lst.add(node);
