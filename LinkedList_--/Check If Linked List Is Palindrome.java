@@ -1,6 +1,6 @@
 /****************************************************************
 
- Following is the class structure of the Node class:
+ Following is the class structure of the Node class: 
 
  class Node {
      public int data;
