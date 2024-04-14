@@ -31,6 +31,12 @@
 
 public class Solution {
     public static Node mergeTwoList(Node list1,Node list2){
+        if(list1.data<=list2.data){
+            list2.next=null;
+        }
+        else{
+            list1.next=null;
+        }
         Node dummy=new Node(-1);
         Node temp=dummy;
         while(list1!=null && list2!=null){
@@ -47,14 +53,13 @@ public class Solution {
             temp.next=null;
         }
         if(list1==null) temp.child=list2;
-        if(list2==null) temp.child=list1;
+        else temp.child=list1;
         return dummy.child; 
     }
     public static Node flattenLinkedList(Node head) {
         //Write your code here
         if(head==null || head.next==null) return head;
         Node mergeHead=flattenLinkedList(head.next);
-        head= mergeTwoList(mergeHead, head);
-        return head;
+        return mergeTwoList(mergeHead, head);
     }
 }
