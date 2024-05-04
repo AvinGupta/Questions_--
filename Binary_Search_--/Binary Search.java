@@ -1,7 +1,7 @@
 class Solution {
     // recusive solution
     int binarysearch(int arr[], int n, int k) {
-        return bin(arr,k,0,arr.length-1);
+        return bin(arr,k,0,arr.length-1); 
     }
     static int bin(int[] arr,int k,int spt,int ept){
         if(spt>ept) return -1;
