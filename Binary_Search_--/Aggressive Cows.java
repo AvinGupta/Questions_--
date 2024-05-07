@@ -2,7 +2,7 @@ class Solution {
     public static int solve(int n, int k, int[] stalls) {
         Arrays.sort(stalls);
         int spt=1;
-        int ept=stalls[n-1]-stalls[0];
+        int ept=stalls[n-1]-stalls[0]; 
         int ans=0;
         while(spt<=ept){
             int mid=spt+(ept-spt)/2;
