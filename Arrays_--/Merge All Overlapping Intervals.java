@@ -5,7 +5,7 @@ public class Solution {
         List<List<Integer>> lst=new ArrayList<>();
         if(arr.length==0 || arr==null){
             lst.add(new ArrayList<>());
-            return lst;
+            return lst; 
         } 
         Arrays.sort(arr,(a,b)->a[0]-b[0]);
         int start=arr[0][0];
