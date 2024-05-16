@@ -1,6 +1,6 @@
 class Solution 
 { 
-    static int Search(int arr[], int target)
+    static int Search(int arr[], int target) 
 	{
 	    // code here
 	    int spt=0;
