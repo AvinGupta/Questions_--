@@ -2,6 +2,7 @@ class Solution
 {
     //Function to find maximum of each subarray of size k.
     static ArrayList <Integer> max_of_subarrays(int nums[], int n, int k){
+        //if window is bigger then the array itself then find the max of the array.
         if(k>nums.length){
             int max=nums[0];
              for(int i=1;i<nums.length;i++){
@@ -9,6 +10,7 @@ class Solution
             }
             return new ArrayList<>(max);
         }
+        //else find the max in every window of size k.
         else{
             ArrayList<Integer> lst=new ArrayList<>();
             Deque<Integer> dq=new LinkedList<>();
