@@ -1,5 +1,4 @@
 class Solution {
-
     int search(String p, String s) {
         int k=p.length();
         HashMap<Character,Integer> map=new HashMap<>();
