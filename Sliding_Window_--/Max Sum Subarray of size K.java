@@ -1,3 +1,4 @@
+//fixed size window question(revised).
 class Solution{
     static long maximumSumSubarray(int K, ArrayList<Integer> Arr,int N){
         //solution 1:--
