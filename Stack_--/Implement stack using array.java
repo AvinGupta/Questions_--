@@ -5,7 +5,7 @@ class MyStack {
     public MyStack() {
         arr = new int[1000];
         top = -1;
-    }
+    } 
 
     public void push(int x) {
         // Your Code
